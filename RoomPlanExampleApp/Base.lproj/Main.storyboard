@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qdR-sG-hoR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qdR-sG-hoR">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1036,16 +1036,26 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group94" translatesAutoresizingMaskIntoConstraints="NO" id="d08-3o-zSM">
-                                <rect key="frame" x="102" y="195" width="225" height="247"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Interiex" translatesAutoresizingMaskIntoConstraints="NO" id="d08-3o-zSM">
+                                <rect key="frame" x="102" y="193" width="225" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group304" translatesAutoresizingMaskIntoConstraints="NO" id="yln-xD-cFn">
-                                <rect key="frame" x="121" y="566" width="187" height="122"/>
+                                <rect key="frame" x="99" y="597" width="231" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loremIpsumDolorSitAmetConsecteturAdipiscingElitSedDoEiusmodTemporIncididuntUtLabore" translatesAutoresizingMaskIntoConstraints="NO" id="fbw-Pp-R1J">
+                                <rect key="frame" x="94" y="515" width="240" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nh-Vo-a3g">
+                                <rect key="frame" x="121" y="684" width="187" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVx-Vi-efu">
-                                <rect key="frame" x="142" y="587" width="149" height="35"/>
+                                <rect key="frame" x="121" y="623" width="187" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
@@ -1053,10 +1063,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                     <segue destination="JHH-io-5ip" kind="presentation" id="8xw-55-kho"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loremIpsumDolorSitAmetConsecteturAdipiscingElitSedDoEiusmodTemporIncididuntUtLabore" translatesAutoresizingMaskIntoConstraints="NO" id="fbw-Pp-R1J">
-                                <rect key="frame" x="94" y="515" width="240" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ozl-sJ-yNb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1064,7 +1070,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jgs-e5-9XB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="936" y="-2206"/>
+            <point key="canvasLocation" x="933.64485981308405" y="-2327.4298056155508"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="h7G-iZ-JJX">
@@ -1213,6 +1219,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <image name="Group 301" width="257" height="63"/>
         <image name="Home_light" width="72" height="67"/>
         <image name="Icon" width="6" height="12"/>
+        <image name="Interiex" width="143" height="165"/>
         <image name="Menu" width="32" height="38"/>
         <image name="Rectangle 1" width="393" height="677"/>
         <image name="Screenshot 2024-03-13 at 4.35.59 PM" width="370" height="648"/>
@@ -1247,7 +1254,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <image name="group45" width="319" height="200"/>
         <image name="group46" width="393" height="682"/>
         <image name="group47" width="317" height="29"/>
-        <image name="group94" width="143" height="177"/>
         <image name="homeLight" width="77" height="69"/>
         <image name="line3" width="51" height="9"/>
         <image name="login" width="95.333335876464844" height="39"/>
