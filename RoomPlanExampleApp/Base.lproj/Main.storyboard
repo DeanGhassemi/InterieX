@@ -188,7 +188,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Sy-sH-ZKy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2765.8878504672894" y="2546.4362850971925"/>
+            <point key="canvasLocation" x="3641" y="2572"/>
         </scene>
         <!--Startup Screen-->
         <scene sceneID="Gxv-hx-tpH">
@@ -1338,7 +1338,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsg-fq-gbI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1865.8878504672896" y="2546.4362850971925"/>
+            <point key="canvasLocation" x="2742" y="2572"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gfE-Gn-ClS">
