@@ -26,6 +26,7 @@ class RoomCaptureViewController: UIViewController, RoomCaptureViewDelegate, Room
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         // Set up after loading the view.
         setupRoomCaptureView()
         activityIndicator?.stopAnimating()
