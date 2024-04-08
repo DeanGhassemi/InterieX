@@ -188,7 +188,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Sy-sH-ZKy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="940.65420560747657" y="2534.7732181425486"/>
+            <point key="canvasLocation" x="1866" y="2547"/>
         </scene>
         <!--Startup Screen-->
         <scene sceneID="Gxv-hx-tpH">
@@ -233,6 +233,15 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                     <view key="view" contentMode="scaleToFill" id="3Z8-PE-mcT">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up Screen works!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssb-jx-r7D">
+                                <rect key="frame" x="128" y="448" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PvF-HN-Rjx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -249,6 +258,15 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                     <view key="view" contentMode="scaleToFill" id="Lwj-VD-7df">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login screen works" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDH-eC-jdn">
+                                <rect key="frame" x="141" y="448" width="147" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ref-7S-l9w"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -275,7 +293,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lX-oJ-ddl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020.5607476635513" y="1535.6371490280778"/>
+            <point key="canvasLocation" x="-398" y="1562"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YP9-Cy-YAh">
@@ -1242,7 +1260,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bI5-HR-rQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="956.07476635514013" y="1132.6133909287257"/>
+            <point key="canvasLocation" x="941" y="1133"/>
         </scene>
         <!--Scans-->
         <scene sceneID="z9R-Ae-PIX">
@@ -1280,7 +1298,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsg-fq-gbI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="42.056074766355138" y="2534.7732181425486"/>
+            <point key="canvasLocation" x="967" y="2547"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Yu7-JO-exc">
