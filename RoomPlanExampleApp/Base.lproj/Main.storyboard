@@ -64,7 +64,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mnn-iT-DWc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4540.6542056074768" y="1132.6133909287257"/>
+            <point key="canvasLocation" x="5440.6542056074759" y="1132.6133909287257"/>
         </scene>
         <!--Room Capture View Controller-->
         <scene sceneID="aNf-ca-iLV">
@@ -126,7 +126,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4N-9i-teE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6221.4953271028035" y="1136.5010799136071"/>
+            <point key="canvasLocation" x="7121.4953271028035" y="1136.5010799136071"/>
         </scene>
         <!--Saved Rooms-->
         <scene sceneID="G2R-ws-HqM">
@@ -142,7 +142,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJ3-iu-jhD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4540.6542056074768" y="1802.5917926565876"/>
+            <point key="canvasLocation" x="5440.6542056074759" y="1802.5917926565876"/>
         </scene>
         <!--Selected Room-->
         <scene sceneID="IPd-cW-H5L">
@@ -157,7 +157,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOh-u8-wpg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5392.9906542056069" y="1813.6069114470843"/>
+            <point key="canvasLocation" x="6292.9906542056069" y="1813.6069114470843"/>
         </scene>
         <!--Furniture Dashboard-->
         <scene sceneID="zz0-Ak-S3G">
@@ -172,7 +172,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfL-pt-PXf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6221.4953271028035" y="1813.6069114470843"/>
+            <point key="canvasLocation" x="7121.4953271028035" y="1813.6069114470843"/>
         </scene>
         <!--Home-->
         <scene sceneID="bZh-Xu-Qdn">
@@ -206,7 +206,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="KiD-Ce-QNi" kind="show" id="h6u-0W-omZ"/>
+                                    <segue destination="KiD-Ce-QNi" kind="show" id="Spb-qR-teF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zS-iX-6nT">
@@ -217,7 +217,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log In"/>
                                 <connections>
-                                    <segue destination="HNi-n5-EfN" kind="show" id="tgp-Ux-qtp"/>
+                                    <segue destination="HNi-n5-EfN" kind="show" id="nPk-85-1Ds"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,7 +236,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfN-ZF-shR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-949.06542056074761" y="1448.8120950323976"/>
+            <point key="canvasLocation" x="-911" y="1460"/>
         </scene>
         <!--Register Screen-->
         <scene sceneID="4ge-R7-csI">
@@ -256,9 +256,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <rect key="frame" x="168" y="615" width="93" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Continue"/>
-                                <connections>
-                                    <segue destination="JNY-en-MMV" kind="show" id="wh1-y7-3Pj"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PvF-HN-Rjx"/>
@@ -275,7 +272,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rjj-kg-IHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1272.8971962616822" y="1908.8552915766741"/>
+            <point key="canvasLocation" x="1482" y="1921"/>
         </scene>
         <!--Login Screen-->
         <scene sceneID="uk2-cL-lJY">
@@ -295,9 +292,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <rect key="frame" x="168" y="601" width="93" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Continue"/>
-                                <connections>
-                                    <segue destination="JNY-en-MMV" kind="show" id="WZu-Az-ogB"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ref-7S-l9w"/>
@@ -315,7 +309,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8I-SB-48z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1265.8878504672896" y="1120.9503239740823"/>
+            <point key="canvasLocation" x="1475" y="1133"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5Bq-QO-3Kj">
@@ -335,7 +329,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lX-oJ-ddl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2482.7102803738317" y="1448.8120950323976"/>
+            <point key="canvasLocation" x="2931" y="1460"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YP9-Cy-YAh">
@@ -351,7 +345,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpx-88-WV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5392.9906542056069" y="1136.5010799136071"/>
+            <point key="canvasLocation" x="6292.9906542056069" y="1136.5010799136071"/>
         </scene>
         <!--Scanning Room-->
         <scene sceneID="Q3p-IO-fBK">
@@ -1302,7 +1296,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bI5-HR-rQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3640.6542056074763" y="1132.6133909287257"/>
+            <point key="canvasLocation" x="4540.6542056074768" y="1132.6133909287257"/>
         </scene>
         <!--Scans-->
         <scene sceneID="z9R-Ae-PIX">
@@ -1321,7 +1315,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iIQ-Gb-VG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3640.6542056074763" y="1802.5917926565876"/>
+            <point key="canvasLocation" x="4540.6542056074768" y="1802.5917926565876"/>
         </scene>
         <!--Home-->
         <scene sceneID="89W-O0-vew">
@@ -1358,12 +1352,11 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="POh-5F-hGS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1849.0654205607475" y="1448.8120950323976"/>
+            <point key="canvasLocation" x="-1811" y="1460"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="tN4-rA-O6W"/>
-        <segue reference="WZu-Az-ogB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1*8FhwCPi3tpm2pOzZVxV4mQ" width="1179" height="2556"/>
