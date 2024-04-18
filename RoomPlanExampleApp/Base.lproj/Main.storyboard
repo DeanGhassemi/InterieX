@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RvJ-wo-5b6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vyp-5z-vBt">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -64,7 +64,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mnn-iT-DWc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5440.6542056074759" y="1132.6133909287257"/>
+            <point key="canvasLocation" x="6339.2523364485978" y="1132.6133909287257"/>
         </scene>
         <!--Room Capture View Controller-->
         <scene sceneID="aNf-ca-iLV">
@@ -126,7 +126,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4N-9i-teE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7121.4953271028035" y="1136.5010799136071"/>
+            <point key="canvasLocation" x="8021.4953271028035" y="1136.5010799136071"/>
         </scene>
         <!--Saved Rooms-->
         <scene sceneID="G2R-ws-HqM">
@@ -142,7 +142,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pJ3-iu-jhD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5440.6542056074759" y="1802.5917926565876"/>
+            <point key="canvasLocation" x="6339.2523364485978" y="1802.5917926565876"/>
         </scene>
         <!--Selected Room-->
         <scene sceneID="IPd-cW-H5L">
@@ -157,7 +157,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOh-u8-wpg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6292.9906542056069" y="1813.6069114470843"/>
+            <point key="canvasLocation" x="7192.9906542056069" y="1813.6069114470843"/>
         </scene>
         <!--Furniture Dashboard-->
         <scene sceneID="zz0-Ak-S3G">
@@ -172,7 +172,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfL-pt-PXf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7121.4953271028035" y="1813.6069114470843"/>
+            <point key="canvasLocation" x="8021.4953271028035" y="1813.6069114470843"/>
         </scene>
         <!--Home-->
         <scene sceneID="bZh-Xu-Qdn">
@@ -198,45 +198,107 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQQ-Ck-IEh">
-                                <rect key="frame" x="153" y="554" width="123" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQQ-Ck-IEh">
+                                <rect key="frame" x="145" y="671" width="123" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="fGh-65-q3p"/>
+                                    <constraint firstAttribute="height" constant="32" id="igf-Qi-amL"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
+                                <buttonConfiguration key="configuration" style="filled" image="SignIn"/>
                                 <connections>
                                     <segue destination="KiD-Ce-QNi" kind="show" id="Spb-qR-teF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zS-iX-6nT">
-                                <rect key="frame" x="153" y="370" width="123" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zS-iX-6nT">
+                                <rect key="frame" x="145" y="597.66666666666663" width="123" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="59" id="Jfw-zL-bUg"/>
+                                    <constraint firstAttribute="height" constant="32" id="SZL-4L-sQD"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Log In"/>
+                                <buttonConfiguration key="configuration" style="filled" image="NewLogin"/>
                                 <connections>
                                     <segue destination="HNi-n5-EfN" kind="show" id="nPk-85-1Ds"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePa-yS-t2I">
+                                <rect key="frame" x="159.66666666666666" y="592" width="94" height="43"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Log In">
+                                        <attributes>
+                                            <color key="NSColor" red="0.9013503602198456" green="0.91027462121212122" blue="0.91027462121212122" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="36"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbp-mf-7iO">
+                                <rect key="frame" x="27" y="494" width="375" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="gUK-AO-kAu"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Interiex utilizes Apple's Room Plan API for effortless room scanning. Redesigning or renovating spaces is efficient and intuitive with Interiex.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="10" name="HelveticaNeue"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.92549000000000003" green="0.92549000000000003" blue="0.92549000000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="InteriexThing" translatesAutoresizingMaskIntoConstraints="NO" id="uja-JW-vzQ">
+                                <rect key="frame" x="0.0" y="139" width="428" height="347"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wY4-L0-Br6">
+                                <rect key="frame" x="126" y="663" width="161" height="40"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Sign Up">
+                                        <attributes>
+                                            <color key="NSColor" red="0.24193353708497597" green="0.26831892641643312" blue="0.91027462121212122" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="SFMono-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KqK-Oy-gqQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="KqK-Oy-gqQ" firstAttribute="bottom" secondItem="CQQ-Ck-IEh" secondAttribute="bottom" constant="277" id="OH6-9o-5gE"/>
-                            <constraint firstItem="2zS-iX-6nT" firstAttribute="leading" secondItem="CQQ-Ck-IEh" secondAttribute="leading" id="ShT-jD-QrB"/>
-                            <constraint firstItem="2zS-iX-6nT" firstAttribute="centerX" secondItem="ylY-nU-83e" secondAttribute="centerX" id="ZgO-Mt-hU2"/>
-                            <constraint firstItem="2zS-iX-6nT" firstAttribute="top" secondItem="KqK-Oy-gqQ" secondAttribute="top" constant="279" id="lfm-LP-SWW"/>
-                            <constraint firstItem="2zS-iX-6nT" firstAttribute="leading" secondItem="KqK-Oy-gqQ" secondAttribute="leading" constant="153" id="nXp-hs-irU"/>
-                            <constraint firstItem="2zS-iX-6nT" firstAttribute="trailing" secondItem="CQQ-Ck-IEh" secondAttribute="trailing" id="zfD-Ks-IJS"/>
+                            <constraint firstItem="2zS-iX-6nT" firstAttribute="trailing" secondItem="CQQ-Ck-IEh" secondAttribute="trailing" id="15f-xq-QpN"/>
+                            <constraint firstItem="2zS-iX-6nT" firstAttribute="leading" secondItem="wY4-L0-Br6" secondAttribute="leading" constant="19" id="75P-ld-ycA"/>
+                            <constraint firstItem="uja-JW-vzQ" firstAttribute="trailing" secondItem="tbp-mf-7iO" secondAttribute="trailing" constant="26" id="7Bp-zj-kcI"/>
+                            <constraint firstItem="2zS-iX-6nT" firstAttribute="top" secondItem="tbp-mf-7iO" secondAttribute="bottom" constant="12" id="7wF-SX-YA0"/>
+                            <constraint firstItem="uja-JW-vzQ" firstAttribute="leading" secondItem="tbp-mf-7iO" secondAttribute="leading" constant="-27" id="DEM-pw-fR5"/>
+                            <constraint firstItem="2zS-iX-6nT" firstAttribute="centerY" secondItem="ePa-yS-t2I" secondAttribute="centerY" id="FQU-Bs-wKz"/>
+                            <constraint firstItem="wY4-L0-Br6" firstAttribute="top" secondItem="ePa-yS-t2I" secondAttribute="bottom" constant="28" id="Ian-SL-h8W"/>
+                            <constraint firstItem="KqK-Oy-gqQ" firstAttribute="trailing" secondItem="wY4-L0-Br6" secondAttribute="trailing" constant="141" id="K2L-pI-x0P"/>
+                            <constraint firstItem="KqK-Oy-gqQ" firstAttribute="trailing" secondItem="2zS-iX-6nT" secondAttribute="trailing" constant="160" id="Mep-EN-M9G"/>
+                            <constraint firstItem="uja-JW-vzQ" firstAttribute="top" secondItem="KqK-Oy-gqQ" secondAttribute="top" constant="48" id="N4z-wJ-csB"/>
+                            <constraint firstItem="wY4-L0-Br6" firstAttribute="leading" secondItem="CQQ-Ck-IEh" secondAttribute="leading" constant="-19" id="OH5-wM-ogi"/>
+                            <constraint firstItem="2zS-iX-6nT" firstAttribute="leading" secondItem="KqK-Oy-gqQ" secondAttribute="leading" constant="145" id="OKx-T4-Gw3"/>
+                            <constraint firstItem="ePa-yS-t2I" firstAttribute="centerX" secondItem="2zS-iX-6nT" secondAttribute="centerX" id="Txt-iJ-pW1"/>
+                            <constraint firstItem="KqK-Oy-gqQ" firstAttribute="bottom" secondItem="CQQ-Ck-IEh" secondAttribute="bottom" constant="189" id="eNA-Tx-err"/>
+                            <constraint firstItem="tbp-mf-7iO" firstAttribute="top" secondItem="uja-JW-vzQ" secondAttribute="bottom" constant="8" id="ftG-19-XDn"/>
+                            <constraint firstItem="uja-JW-vzQ" firstAttribute="centerX" secondItem="ylY-nU-83e" secondAttribute="centerX" id="kKs-ME-CdB"/>
+                            <constraint firstItem="CQQ-Ck-IEh" firstAttribute="top" secondItem="ePa-yS-t2I" secondAttribute="bottom" constant="36" id="m6w-yi-aXr"/>
+                            <constraint firstItem="wY4-L0-Br6" firstAttribute="bottom" secondItem="CQQ-Ck-IEh" secondAttribute="bottom" id="vg0-6x-kyS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZvD-2P-Elu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfN-ZF-shR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-911" y="1460"/>
+            <point key="canvasLocation" x="179" y="1460"/>
         </scene>
         <!--Register Screen-->
         <scene sceneID="4ge-R7-csI">
@@ -253,9 +315,12 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbs-2v-SBY">
-                                <rect key="frame" x="168" y="615" width="93" height="35"/>
+                                <rect key="frame" x="168" y="576" width="93" height="39"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                                <connections>
+                                    <segue destination="JNY-en-MMV" kind="show" id="VFH-vW-NxG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PvF-HN-Rjx"/>
@@ -272,7 +337,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rjj-kg-IHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1482" y="1921"/>
+            <point key="canvasLocation" x="1602" y="1924"/>
         </scene>
         <!--Login Screen-->
         <scene sceneID="uk2-cL-lJY">
@@ -282,34 +347,122 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Login screen works" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDH-eC-jdn">
-                                <rect key="frame" x="141" y="448" width="147" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDH-eC-jdn">
+                                <rect key="frame" x="141" y="74" width="204" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="hoC-F1-b0E"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Login">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="48" name="ArialMT"/>
+                                            <font key="NSOriginalFont" size="48" name="ArialMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzK-h6-0ap">
-                                <rect key="frame" x="168" y="601" width="93" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzK-h6-0ap">
+                                <rect key="frame" x="168" y="640" width="93" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="8AV-uz-zHE"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Login2nd"/>
+                                <connections>
+                                    <segue destination="JNY-en-MMV" kind="show" id="90v-tp-ZSn"/>
+                                </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundLogin" translatesAutoresizingMaskIntoConstraints="NO" id="hWQ-dw-jyt">
+                                <rect key="frame" x="-126" y="705" width="681" height="221"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="681" id="Q1F-8w-jH8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SocialMediaIcons" translatesAutoresizingMaskIntoConstraints="NO" id="569-Kb-5d4">
+                                <rect key="frame" x="97" y="716" width="235" height="65"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CF4-AN-8Y4">
+                                <rect key="frame" x="157" y="691" width="175" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="xjv-Pn-mcq"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="or connect with">
+                                        <attributes>
+                                            <color key="NSColor" red="0.083219604129530556" green="0.084043560606060552" blue="0.084043560606060552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmh-ae-6Aw">
+                                <rect key="frame" x="84" y="139" width="261" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="hmb-ae-jVE"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="By signing in you are agreeing our Term and privacy policy">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="11"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BIv-wW-ENC">
+                                <rect key="frame" x="57" y="446" width="315" height="34"/>
+                                <color key="backgroundColor" red="0.083219604129999999" green="0.084043560609999998" blue="0.084043560609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4g8-l5-Djt">
+                                <rect key="frame" x="57" y="324" width="315" height="34"/>
+                                <color key="backgroundColor" red="0.083219604129999999" green="0.084043560609999998" blue="0.084043560609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ref-7S-l9w"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dDH-eC-jdn" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="141" id="EKv-mN-bcH"/>
-                            <constraint firstItem="dDH-eC-jdn" firstAttribute="centerX" secondItem="XzK-h6-0ap" secondAttribute="centerX" id="GYG-7r-ujk"/>
-                            <constraint firstItem="XzK-h6-0ap" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="168" id="S6D-ws-bla"/>
-                            <constraint firstItem="ref-7S-l9w" firstAttribute="bottom" secondItem="XzK-h6-0ap" secondAttribute="bottom" constant="256" id="TR8-ql-CR8"/>
-                            <constraint firstItem="dDH-eC-jdn" firstAttribute="top" secondItem="ref-7S-l9w" secondAttribute="top" constant="357" id="cdJ-L2-IFD"/>
-                            <constraint firstItem="dDH-eC-jdn" firstAttribute="centerX" secondItem="Lwj-VD-7df" secondAttribute="centerX" id="rjf-rK-GCv"/>
+                            <constraint firstItem="dDH-eC-jdn" firstAttribute="centerX" secondItem="Lwj-VD-7df" secondAttribute="centerX" constant="29" id="0aj-9o-CO8"/>
+                            <constraint firstItem="hWQ-dw-jyt" firstAttribute="top" secondItem="XzK-h6-0ap" secondAttribute="bottom" constant="34" id="2T0-9C-0AB"/>
+                            <constraint firstItem="dDH-eC-jdn" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="141" id="7Bv-4W-KTn"/>
+                            <constraint firstItem="BIv-wW-ENC" firstAttribute="top" secondItem="4g8-l5-Djt" secondAttribute="bottom" constant="88" id="7un-sj-IR6"/>
+                            <constraint firstItem="ref-7S-l9w" firstAttribute="bottom" secondItem="569-Kb-5d4" secondAttribute="bottom" constant="111" id="8st-cp-T0s"/>
+                            <constraint firstItem="dDH-eC-jdn" firstAttribute="centerX" secondItem="Qmh-ae-6Aw" secondAttribute="centerX" constant="28.5" id="ECt-ZU-CDv"/>
+                            <constraint firstItem="569-Kb-5d4" firstAttribute="top" secondItem="XzK-h6-0ap" secondAttribute="bottom" constant="45" id="ESh-uw-tp6"/>
+                            <constraint firstItem="4g8-l5-Djt" firstAttribute="leading" secondItem="BIv-wW-ENC" secondAttribute="leading" id="FDo-1j-LZm"/>
+                            <constraint firstItem="XzK-h6-0ap" firstAttribute="centerX" secondItem="569-Kb-5d4" secondAttribute="centerX" id="GB1-tv-YHc"/>
+                            <constraint firstItem="XzK-h6-0ap" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="168" id="Gjn-41-bRZ"/>
+                            <constraint firstItem="CF4-AN-8Y4" firstAttribute="top" secondItem="XzK-h6-0ap" secondAttribute="bottom" constant="20" id="Gts-P0-JKP"/>
+                            <constraint firstItem="Qmh-ae-6Aw" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="84" id="HRK-x2-gJl"/>
+                            <constraint firstItem="CF4-AN-8Y4" firstAttribute="trailing" secondItem="569-Kb-5d4" secondAttribute="trailing" id="Lcl-EO-T21"/>
+                            <constraint firstItem="4g8-l5-Djt" firstAttribute="trailing" secondItem="BIv-wW-ENC" secondAttribute="trailing" id="MjG-HW-low"/>
+                            <constraint firstItem="4g8-l5-Djt" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="57" id="Q87-Ll-IR1"/>
+                            <constraint firstItem="ref-7S-l9w" firstAttribute="bottom" secondItem="CF4-AN-8Y4" secondAttribute="bottom" constant="169" id="Z2c-Jx-WSY"/>
+                            <constraint firstItem="4g8-l5-Djt" firstAttribute="centerX" secondItem="Qmh-ae-6Aw" secondAttribute="centerX" id="amT-9a-oNf"/>
+                            <constraint firstItem="569-Kb-5d4" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="97" id="gXM-F5-aem"/>
+                            <constraint firstItem="dDH-eC-jdn" firstAttribute="top" secondItem="Lwj-VD-7df" secondAttribute="topMargin" constant="-17" id="gyW-HQ-tmL"/>
+                            <constraint firstItem="CF4-AN-8Y4" firstAttribute="leading" secondItem="ref-7S-l9w" secondAttribute="leading" constant="157" id="i00-Lr-5aQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hWQ-dw-jyt" secondAttribute="bottom" constant="-34" id="mTq-D2-Qed"/>
+                            <constraint firstItem="Qmh-ae-6Aw" firstAttribute="centerX" secondItem="XzK-h6-0ap" secondAttribute="centerX" id="t2I-zC-Dgc"/>
+                            <constraint firstItem="hWQ-dw-jyt" firstAttribute="centerX" secondItem="569-Kb-5d4" secondAttribute="centerX" id="x22-5v-Iiy"/>
+                            <constraint firstItem="Qmh-ae-6Aw" firstAttribute="top" secondItem="dDH-eC-jdn" secondAttribute="bottom" constant="8" id="yUt-Sd-evi"/>
+                            <constraint firstItem="BIv-wW-ENC" firstAttribute="centerY" secondItem="Lwj-VD-7df" secondAttribute="centerY" id="zOM-ow-Ra2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RET-75-ndq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8I-SB-48z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1475" y="1133"/>
+            <point key="canvasLocation" x="1593.9252336448596" y="1136.5010799136071"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5Bq-QO-3Kj">
@@ -329,7 +482,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lX-oJ-ddl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2931" y="1460"/>
+            <point key="canvasLocation" x="3829.9065420560746" y="1459.8272138228942"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YP9-Cy-YAh">
@@ -345,7 +498,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpx-88-WV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6292.9906542056069" y="1136.5010799136071"/>
+            <point key="canvasLocation" x="7192.9906542056069" y="1136.5010799136071"/>
         </scene>
         <!--Scanning Room-->
         <scene sceneID="Q3p-IO-fBK">
@@ -1101,7 +1254,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRY-Pv-DkL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701.8691588785045" y="-1546.0043196544277"/>
+            <point key="canvasLocation" x="1601" y="2644"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uhe-Ha-Xxv">
@@ -1166,49 +1319,11 @@ You can see a preview of your scan at the bottom of the screen so you can make s
             <point key="canvasLocation" x="-2208" y="-1586"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="y8t-se-5RK">
-            <objects>
-                <viewController id="dvA-W4-WQ3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="47O-X7-A4X">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group94" translatesAutoresizingMaskIntoConstraints="NO" id="d08-3o-zSM">
-                                <rect key="frame" x="102" y="195" width="225" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group304" translatesAutoresizingMaskIntoConstraints="NO" id="yln-xD-cFn">
-                                <rect key="frame" x="121" y="566" width="187" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVx-Vi-efu">
-                                <rect key="frame" x="142" y="587" width="149" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
-                                <connections>
-                                    <segue destination="JHH-io-5ip" kind="presentation" id="8xw-55-kho"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loremIpsumDolorSitAmetConsecteturAdipiscingElitSedDoEiusmodTemporIncididuntUtLabore" translatesAutoresizingMaskIntoConstraints="NO" id="fbw-Pp-R1J">
-                                <rect key="frame" x="94" y="515" width="240" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Ozl-sJ-yNb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jgs-e5-9XB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="936" y="-2206"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="h7G-iZ-JJX">
             <objects>
                 <viewController id="JHH-io-5ip" customClass="ViewController" customModule="InterieX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uhe-5P-aeU">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-6X-7Qd">
@@ -1251,10 +1366,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <rect key="frame" x="260" y="510" width="117" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="subtract" translatesAutoresizingMaskIntoConstraints="NO" id="Ioj-1q-B3S">
-                                <rect key="frame" x="0.0" y="634" width="428" height="352"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Lg-MQ-Rtg">
                                 <rect key="frame" x="45" y="591" width="303" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1270,6 +1381,10 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                     <segue destination="oCc-55-gZc" kind="show" id="tN4-rA-O6W"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="subtract" translatesAutoresizingMaskIntoConstraints="NO" id="Ioj-1q-B3S">
+                                <rect key="frame" x="0.0" y="651" width="428" height="352"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ej5-Mw-oP3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1277,7 +1392,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dcJ-Ci-CAh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="935.04672897196258" y="-1547.3002159827215"/>
+            <point key="canvasLocation" x="1594" y="402"/>
         </scene>
         <!--Camera-->
         <scene sceneID="n0I-zs-0NQ">
@@ -1296,7 +1411,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bI5-HR-rQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4540.6542056074768" y="1132.6133909287257"/>
+            <point key="canvasLocation" x="5440.6542056074759" y="1132.6133909287257"/>
         </scene>
         <!--Scans-->
         <scene sceneID="z9R-Ae-PIX">
@@ -1315,7 +1430,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iIQ-Gb-VG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4540.6542056074768" y="1802.5917926565876"/>
+            <point key="canvasLocation" x="5440.6542056074759" y="1802.5917926565876"/>
         </scene>
         <!--Home-->
         <scene sceneID="89W-O0-vew">
@@ -1337,29 +1452,66 @@ You can see a preview of your scan at the bottom of the screen so you can make s
             <point key="canvasLocation" x="2742" y="2572"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="pLs-8k-7Df">
+        <scene sceneID="zf0-eA-sNO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qfp-2u-bmz" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vyp-5z-vBt" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n0x-zK-6cZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RBF-zv-uVK">
                         <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="RvJ-wo-5b6" kind="relationship" relationship="rootViewController" id="7Zt-Gc-LoZ"/>
+                        <segue destination="RvJ-wo-5b6" kind="relationship" relationship="rootViewController" id="9H4-Ds-Rhy"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="POh-5F-hGS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIy-k5-PEu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1811" y="1460"/>
+            <point key="canvasLocation" x="-721" y="1460"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lwa-2u-CZV">
+            <objects>
+                <viewController id="MKn-aY-GfS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hx3-cG-4UY">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group94" translatesAutoresizingMaskIntoConstraints="NO" id="6yo-3z-ZBs">
+                                <rect key="frame" x="102" y="195" width="225" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group304" translatesAutoresizingMaskIntoConstraints="NO" id="I4X-DX-t09">
+                                <rect key="frame" x="121" y="566" width="187" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrD-lO-pQd">
+                                <rect key="frame" x="142" y="587" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loremIpsumDolorSitAmetConsecteturAdipiscingElitSedDoEiusmodTemporIncididuntUtLabore" translatesAutoresizingMaskIntoConstraints="NO" id="wJC-EN-5fV">
+                                <rect key="frame" x="94" y="515" width="240" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9ac-BX-bqf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Udd-HN-jAP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="179" y="732"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="tN4-rA-O6W"/>
+        <segue reference="90v-tp-ZSn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1*8FhwCPi3tpm2pOzZVxV4mQ" width="1179" height="2556"/>
+        <image name="BackgroundLogin" width="393" height="196.66667175292969"/>
         <image name="Group 279" width="42" height="39"/>
         <image name="Group 280" width="42" height="39"/>
         <image name="Group 281" width="151" height="41"/>
@@ -1368,7 +1520,10 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <image name="Group 301" width="257" height="63"/>
         <image name="Home_light" width="72" height="67"/>
         <image name="Icon" width="6" height="12"/>
+        <image name="InteriexThing" width="143" height="165"/>
+        <image name="Login2nd" width="326" height="53"/>
         <image name="Menu" width="32" height="38"/>
+        <image name="NewLogin" width="207" height="45"/>
         <image name="Rectangle 1" width="393" height="677"/>
         <image name="Screenshot 2024-03-13 at 4.35.59 PM" width="370" height="648"/>
         <image name="Screenshot_2024-03-13_at_5.40.37_PM-removebg-preview" width="296" height="298"/>
@@ -1377,6 +1532,8 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <image name="Screenshot_2024-03-13_at_5.41.19_PM-removebg-preview" width="402" height="462"/>
         <image name="Screenshot_2024-03-13_at_5.49.25_PM-removebg-preview" width="408" height="346"/>
         <image name="Screenshot_2024-03-14_at_10.31 1" width="393" height="670"/>
+        <image name="SignIn" width="207" height="45"/>
+        <image name="SocialMediaIcons" width="232" height="61"/>
         <image name="Status Bar" width="393" height="42"/>
         <image name="bySigningInYouAreAgreeingOurTermAndPrivacyPolicy" width="223.33332824707031" height="31"/>
         <image name="draft11" width="117.66666412353516" height="142"/>
