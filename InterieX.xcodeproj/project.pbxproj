@@ -10,6 +10,7 @@
 		5C0D6DB52BC3846A002307F9 /* FurnitureDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D6DB42BC3846A002307F9 /* FurnitureDashboardViewController.swift */; };
 		5C0D6DB72BC39C35002307F9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D6DB62BC39C35002307F9 /* MenuViewController.swift */; };
 		5C0D6DB92BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D6DB82BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift */; };
+		5DE262D22BD16E6300D1A3EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE262D12BD16E6300D1A3EA /* HomeViewController.swift */; };
 		71B6638528D0CABC00635A15 /* UnsupportedDevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B6638328D0CABC00635A15 /* UnsupportedDevice.storyboard */; };
 		ACEF94B12820AD2300776A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF94B02820AD2300776A9D /* AppDelegate.swift */; };
 		ACEF94B32820AD2300776A9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF94B22820AD2300776A9D /* SceneDelegate.swift */; };
@@ -26,6 +27,7 @@
 		5C0D6DB42BC3846A002307F9 /* FurnitureDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureDashboardViewController.swift; sourceTree = "<group>"; };
 		5C0D6DB62BC39C35002307F9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		5C0D6DB82BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerMenuAndFurnitureDashboard.swift; sourceTree = "<group>"; };
+		5DE262D12BD16E6300D1A3EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		71B6638428D0CABC00635A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UnsupportedDevice.storyboard; sourceTree = "<group>"; };
 		ACEF94AD2820AD2300776A9D /* InterieX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterieX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF94B02820AD2300776A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				ACEF94B92820AD2400776A9D /* Assets.xcassets */,
 				ACEF94BB2820AD2400776A9D /* LaunchScreen.storyboard */,
 				ACEF94BE2820AD2400776A9D /* Info.plist */,
+				5DE262D12BD16E6300D1A3EA /* HomeViewController.swift */,
 			);
 			path = RoomPlanExampleApp;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				ACEF94B52820AD2300776A9D /* RoomCaptureViewController.swift in Sources */,
 				5C0D6DB92BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift in Sources */,
 				ACEF94B12820AD2300776A9D /* AppDelegate.swift in Sources */,
+				5DE262D22BD16E6300D1A3EA /* HomeViewController.swift in Sources */,
 				ACEF94B32820AD2300776A9D /* SceneDelegate.swift in Sources */,
 				ACEF94C62820AF6600776A9D /* OnboardingViewController.swift in Sources */,
 				5C0D6DB52BC3846A002307F9 /* FurnitureDashboardViewController.swift in Sources */,
@@ -342,7 +346,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6AFZPCNM6N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoomPlanExampleApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "RoomCaptureView Requires Camera Access";
@@ -375,7 +379,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6AFZPCNM6N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoomPlanExampleApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "RoomCaptureView Requires Camera Access";
