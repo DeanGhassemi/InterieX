@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -398,7 +397,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <attributedString key="attributedText">
                                     <fragment content="By registering you are agreeing our Term and privacy policy">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="11"/>
+                                            <font key="NSFont" metaFont="smallSystem"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -636,7 +635,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <attributedString key="attributedText">
                                     <fragment content="By signing in you are agreeing our Term and privacy policy">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="11"/>
+                                            <font key="NSFont" metaFont="smallSystem"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1664,9 +1663,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="hEc-dN-jJb" kind="relationship" relationship="rootViewController" id="lM9-yA-6b6"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsg-fq-gbI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1725,259 +1721,6 @@ You can see a preview of your scan at the bottom of the screen so you can make s
             </objects>
             <point key="canvasLocation" x="179" y="732"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="pUF-jJ-YQb">
-            <objects>
-                <viewController title="Home" id="hEc-dN-jJb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oYz-Fv-973">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved Rooms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGS-SQ-P5r">
-                                <rect key="frame" x="10" y="107" width="154" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="7Ph-SL-iU1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKL-kJ-O48">
-                                <rect key="frame" x="326" y="271" width="102" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="view more"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak3-oy-pae">
-                                <rect key="frame" x="326" y="612" width="102" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="view more"/>
-                            </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vSu-pN-Zwy">
-                                <rect key="frame" x="0.0" y="319" width="428" height="285"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PED-nU-N5n">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dId-Vz-AIr">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6WN-bZ-suw">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="IcP-4d-Pt9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="HRs-NF-Bdn">
-                                        <rect key="frame" x="150" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Okr-hi-Zb3">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4OI-Xo-yaE">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="DPZ-KZ-dAl">
-                                        <rect key="frame" x="300" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3sQ-sD-8Fn">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ksL-t3-UX5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vyV-20-Xcd">
-                                        <rect key="frame" x="0.0" y="138" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mWZ-uP-Ol0">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="w8t-AE-FGR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZCO-7H-hRM">
-                                        <rect key="frame" x="150" y="138" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="iTR-AY-8TW">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="g5u-S2-ydW">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="EZn-tH-Jmn">
-                                        <rect key="frame" x="300" y="138" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="rAT-mB-aMB">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="shh-9n-wdd">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="S0L-zW-pqf">
-                                <rect key="frame" x="0.0" y="148" width="428" height="128"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="K6A-ne-ZXF">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gty-61-ueo">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g3s-c2-vPY">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eE6-Qd-BFP">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                </imageView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="eE6-Qd-BFP" firstAttribute="centerY" secondItem="g3s-c2-vPY" secondAttribute="centerY" id="H6l-3k-hHH"/>
-                                                <constraint firstItem="eE6-Qd-BFP" firstAttribute="leading" secondItem="g3s-c2-vPY" secondAttribute="leading" id="NIG-ut-IYJ"/>
-                                                <constraint firstItem="eE6-Qd-BFP" firstAttribute="top" secondItem="g3s-c2-vPY" secondAttribute="top" id="RPX-fZ-8wG"/>
-                                                <constraint firstItem="eE6-Qd-BFP" firstAttribute="centerX" secondItem="g3s-c2-vPY" secondAttribute="centerX" id="iKd-gc-0R7"/>
-                                            </constraints>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kLU-Pb-Z62">
-                                        <rect key="frame" x="150" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dFr-b8-uVo">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="42O-p6-kpp">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZFm-8b-nqK">
-                                        <rect key="frame" x="300" y="0.0" width="128" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9ai-sJ-0J3">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="qZc-Ef-NY0">
-                                                    <rect key="frame" x="-8" y="-8" width="136" height="136"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CG6-b1-G1i">
-                                <rect key="frame" x="59" y="726" width="310" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="WDD-x5-F0I"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="See What's New!">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="18" name="Helvetica-Bold"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Drafts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNi-8D-pJk">
-                                <rect key="frame" x="164" y="271" width="101" height="57"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="57" id="IQR-NX-eAi"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="OcE-w5-2Dh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="vNi-8D-pJk" firstAttribute="leading" secondItem="OcE-w5-2Dh" secondAttribute="leading" constant="164" id="41u-9J-Azl"/>
-                            <constraint firstItem="S0L-zW-pqf" firstAttribute="leading" secondItem="vSu-pN-Zwy" secondAttribute="leading" id="7L6-N6-5SO"/>
-                            <constraint firstItem="vSu-pN-Zwy" firstAttribute="top" secondItem="S0L-zW-pqf" secondAttribute="bottom" constant="43" id="9tu-Ph-hpx"/>
-                            <constraint firstItem="CG6-b1-G1i" firstAttribute="leading" secondItem="OcE-w5-2Dh" secondAttribute="leading" constant="59" id="AGM-rg-GHd"/>
-                            <constraint firstItem="OcE-w5-2Dh" firstAttribute="trailing" secondItem="AGS-SQ-P5r" secondAttribute="trailing" constant="264" id="BsY-nc-gWd"/>
-                            <constraint firstItem="SKL-kJ-O48" firstAttribute="leading" secondItem="ak3-oy-pae" secondAttribute="leading" id="Dfa-0t-CIt"/>
-                            <constraint firstItem="SKL-kJ-O48" firstAttribute="trailing" secondItem="vSu-pN-Zwy" secondAttribute="trailing" id="Ie2-D7-vYf"/>
-                            <constraint firstItem="S0L-zW-pqf" firstAttribute="trailing" secondItem="SKL-kJ-O48" secondAttribute="trailing" id="OW3-cd-EP0"/>
-                            <constraint firstItem="vNi-8D-pJk" firstAttribute="top" secondItem="SKL-kJ-O48" secondAttribute="top" id="Sb1-ya-Dob"/>
-                            <constraint firstItem="AGS-SQ-P5r" firstAttribute="top" secondItem="OcE-w5-2Dh" secondAttribute="top" constant="16" id="UC5-cU-NUy"/>
-                            <constraint firstItem="vSu-pN-Zwy" firstAttribute="top" secondItem="SKL-kJ-O48" secondAttribute="bottom" constant="13" id="Xxu-TP-Toy"/>
-                            <constraint firstItem="S0L-zW-pqf" firstAttribute="centerX" secondItem="oYz-Fv-973" secondAttribute="centerX" id="aU9-JM-gHv"/>
-                            <constraint firstItem="AGS-SQ-P5r" firstAttribute="leading" secondItem="OcE-w5-2Dh" secondAttribute="leading" constant="10" id="atq-V5-raI"/>
-                            <constraint firstItem="CG6-b1-G1i" firstAttribute="top" secondItem="ak3-oy-pae" secondAttribute="bottom" constant="79" id="ey4-pV-dcg"/>
-                            <constraint firstItem="S0L-zW-pqf" firstAttribute="top" secondItem="AGS-SQ-P5r" secondAttribute="bottom" constant="8" id="n23-PY-cBn"/>
-                            <constraint firstItem="ak3-oy-pae" firstAttribute="top" secondItem="vSu-pN-Zwy" secondAttribute="bottom" constant="8" id="nMo-in-blI"/>
-                            <constraint firstItem="vSu-pN-Zwy" firstAttribute="centerX" secondItem="CG6-b1-G1i" secondAttribute="centerX" id="okj-kc-OjY"/>
-                            <constraint firstItem="CG6-b1-G1i" firstAttribute="bottom" secondItem="OcE-w5-2Dh" secondAttribute="bottom" id="qYy-mY-rEz"/>
-                            <constraint firstItem="ak3-oy-pae" firstAttribute="leading" secondItem="OcE-w5-2Dh" secondAttribute="leading" constant="326" id="vJH-Iq-T4y"/>
-                            <constraint firstItem="vNi-8D-pJk" firstAttribute="top" secondItem="OcE-w5-2Dh" secondAttribute="top" constant="180" id="vod-zL-5Cd"/>
-                            <constraint firstItem="S0L-zW-pqf" firstAttribute="centerX" secondItem="vNi-8D-pJk" secondAttribute="centerX" id="xKM-Hz-d3n"/>
-                        </constraints>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Home" id="KNl-s6-88G">
-                        <leftBarButtonItems>
-                            <barButtonItem title="Icon" id="hol-LV-eIX"/>
-                            <barButtonItem title="Username" id="IJD-ia-2Xh"/>
-                        </leftBarButtonItems>
-                        <rightBarButtonItems>
-                            <barButtonItem title="Settings" id="4gO-z6-bg6"/>
-                            <barButtonItem title="Notifs" id="vNi-Eo-HXz"/>
-                        </rightBarButtonItems>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0fn-M9-37G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6339" y="2544"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="tN4-rA-O6W"/>
@@ -1999,7 +1742,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <image name="Login2nd" width="326" height="53"/>
         <image name="Menu" width="32" height="38"/>
         <image name="NewLogin" width="207" height="45"/>
-        <image name="Rectangle 1" width="413" height="704"/>
+        <image name="Rectangle 1" width="393" height="677"/>
         <image name="Saved" width="40" height="44"/>
         <image name="Screenshot 2024-03-13 at 4.35.59 PM" width="370" height="648"/>
         <image name="Screenshot_2024-03-13_at_5.40.37_PM-removebg-preview" width="296" height="298"/>
