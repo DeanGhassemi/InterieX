@@ -14,6 +14,8 @@
 		142B263D2BD1CC0F00D0935E /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 142B263C2BD1CC0F00D0935E /* FirebaseDatabaseSwift */; };
 		142B263F2BD1CC1900D0935E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 142B263E2BD1CC1900D0935E /* FirebaseStorage */; };
 		142B26412BD1CC2200D0935E /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 142B26402BD1CC2200D0935E /* FirebaseStorageCombine-Community */; };
+		142B264A2BD2B72200D0935E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142B26492BD2B72200D0935E /* SignUpViewController.swift */; };
+		142B264C2BD2BC7B00D0935E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142B264B2BD2BC7B00D0935E /* LoginViewController.swift */; };
 		5C0D6DB52BC3846A002307F9 /* FurnitureDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D6DB42BC3846A002307F9 /* FurnitureDashboardViewController.swift */; };
 		5C0D6DB72BC39C35002307F9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D6DB62BC39C35002307F9 /* MenuViewController.swift */; };
 		5C0D6DB92BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D6DB82BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		05C7567A6B268FC70FFB0FCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		142B26322BD1CB5600D0935E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		142B26492BD2B72200D0935E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		142B264B2BD2BC7B00D0935E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		35A95C3C90A8D7FA01AA694A /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		5C0D6DB42BC3846A002307F9 /* FurnitureDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureDashboardViewController.swift; sourceTree = "<group>"; };
 		5C0D6DB62BC39C35002307F9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		142B26482BD2B6EC00D0935E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF94C52820AF6600776A9D /* OnboardingViewController.swift */,
+				ACEF94B42820AD2300776A9D /* RoomCaptureViewController.swift */,
+				5C0D6DB42BC3846A002307F9 /* FurnitureDashboardViewController.swift */,
+				5C0D6DB82BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift */,
+				5C0D6DB62BC39C35002307F9 /* MenuViewController.swift */,
+				142B26492BD2B72200D0935E /* SignUpViewController.swift */,
+				142B264B2BD2BC7B00D0935E /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		ACEF94A42820AD2300776A9D = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +120,9 @@
 		ACEF94AF2820AD2300776A9D /* RoomPlanExampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				142B26482BD2B6EC00D0935E /* Controllers */,
 				ACEF94B02820AD2300776A9D /* AppDelegate.swift */,
 				ACEF94B22820AD2300776A9D /* SceneDelegate.swift */,
-				ACEF94C52820AF6600776A9D /* OnboardingViewController.swift */,
-				ACEF94B42820AD2300776A9D /* RoomCaptureViewController.swift */,
-				5C0D6DB42BC3846A002307F9 /* FurnitureDashboardViewController.swift */,
-				5C0D6DB82BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift */,
-				5C0D6DB62BC39C35002307F9 /* MenuViewController.swift */,
 				ACEF94B62820AD2300776A9D /* Main.storyboard */,
 				71B6638328D0CABC00635A15 /* UnsupportedDevice.storyboard */,
 				ACEF94B92820AD2400776A9D /* Assets.xcassets */,
@@ -212,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142B264C2BD2BC7B00D0935E /* LoginViewController.swift in Sources */,
 				ACEF94B52820AD2300776A9D /* RoomCaptureViewController.swift in Sources */,
 				5C0D6DB92BC39CE4002307F9 /* ContainerMenuAndFurnitureDashboard.swift in Sources */,
+				142B264A2BD2B72200D0935E /* SignUpViewController.swift in Sources */,
 				ACEF94B12820AD2300776A9D /* AppDelegate.swift in Sources */,
 				ACEF94B32820AD2300776A9D /* SceneDelegate.swift in Sources */,
 				ACEF94C62820AF6600776A9D /* OnboardingViewController.swift in Sources */,

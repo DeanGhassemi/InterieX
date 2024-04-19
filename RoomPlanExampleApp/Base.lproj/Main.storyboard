@@ -14,11 +14,11 @@
             <objects>
                 <viewController storyboardIdentifier="OnboardingViewController" id="qdR-sG-hoR" customClass="OnboardingViewController" customModule="InterieX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yBf-P1-2uZ">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pk-tu-CeD">
-                                <rect key="frame" x="40" y="186" width="348" height="152.33333333333337"/>
+                                <rect key="frame" x="40" y="277" width="348" height="152.33333333333337"/>
                                 <string key="text">To scan your room, point your device at all the walls, windows, doors and furniture in your space until your scan is complete.
 
 You can see a preview of your scan at the bottom of the screen so you can make sure your scan is correct. </string>
@@ -26,12 +26,12 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RoomPlan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDs-He-YN5">
-                                <rect key="frame" x="133.66666666666669" y="130" width="160.66666666666669" height="41"/>
+                                <rect key="frame" x="133.66666666666669" y="221" width="160.66666666666669" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="r5J-Dx-sgl">
-                                <rect key="frame" x="114" y="833" width="200" height="50"/>
+                                <rect key="frame" x="114" y="760" width="200" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="QUA-Ca-Q71"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="sD5-cO-lCf"/>
@@ -61,22 +61,23 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                             <constraint firstAttribute="trailing" secondItem="7pk-tu-CeD" secondAttribute="trailing" constant="40" id="fCa-8j-XGw"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="AR ICon" landscapeImage="AR ICon" selectedImage="AR ICon" id="0m1-jM-2Mu"/>
                     <navigationItem key="navigationItem" id="tok-be-N9U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mnn-iT-DWc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6339.2523364485978" y="1132.6133909287257"/>
+            <point key="canvasLocation" x="5438" y="1110"/>
         </scene>
         <!--Room Capture View Controller-->
         <scene sceneID="aNf-ca-iLV">
             <objects>
                 <viewController storyboardIdentifier="RoomCaptureViewController" id="ocJ-nv-BaW" customClass="RoomCaptureViewController" customModule="InterieX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nWS-xs-VtG">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="916"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="OzX-Pp-2Ee">
-                                <rect key="frame" x="139" y="817" width="150" height="50"/>
+                                <rect key="frame" x="139" y="744" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="210-sX-00Y"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="LXe-u0-xIL"/>
@@ -92,7 +93,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="eOt-Fv-CkS">
-                                <rect key="frame" x="204" y="448" width="20" height="20"/>
+                                <rect key="frame" x="204" y="453" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WOl-ED-SbL"/>
@@ -127,7 +128,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4N-9i-teE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8021.4953271028035" y="1136.5010799136071"/>
+            <point key="canvasLocation" x="7120" y="1114"/>
         </scene>
         <!--Saved Rooms-->
         <scene sceneID="G2R-ws-HqM">
@@ -189,7 +190,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Sy-sH-ZKy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6339" y="2829"/>
+            <point key="canvasLocation" x="6339" y="2545"/>
         </scene>
         <!--Startup Screen-->
         <scene sceneID="Gxv-hx-tpH">
@@ -307,7 +308,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <!--Register Screen-->
         <scene sceneID="4ge-R7-csI">
             <objects>
-                <viewController title="Register Screen" id="KiD-Ce-QNi" sceneMemberID="viewController">
+                <viewController title="Register Screen" id="KiD-Ce-QNi" customClass="SignUpViewController" customModule="InterieX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Z8-PE-mcT">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -339,7 +340,8 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="Login2nd"/>
                                 <connections>
-                                    <segue destination="JNY-en-MMV" kind="show" id="aAV-wY-Pre"/>
+                                    <action selector="signUpDidTouch:" destination="KiD-Ce-QNi" eventType="touchUpInside" id="HGa-YS-ceQ"/>
+                                    <segue destination="JNY-en-MMV" kind="show" id="FAz-L2-kyQ"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TX8-t3-841">
@@ -517,6 +519,12 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5A4-dA-2IT"/>
+                    <connections>
+                        <outlet property="textFieldConfirmEmail" destination="ZiE-DC-c0E" id="UWT-bw-KZ1"/>
+                        <outlet property="textFieldEmail" destination="TX8-t3-841" id="JRc-Jo-HxY"/>
+                        <outlet property="textFieldFullName" destination="7JW-A6-cqV" id="qOr-Zl-FaP"/>
+                        <outlet property="textFieldPassword" destination="yVi-HS-0OT" id="IjM-fN-Pr2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rjj-kg-IHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -525,7 +533,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <!--Login Screen-->
         <scene sceneID="uk2-cL-lJY">
             <objects>
-                <viewController title="Login Screen" id="HNi-n5-EfN" sceneMemberID="viewController">
+                <viewController title="Login Screen" id="HNi-n5-EfN" customClass="LoginViewController" customModule="InterieX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lwj-VD-7df">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -552,6 +560,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="Login2nd"/>
                                 <connections>
+                                    <action selector="loginDidTouch:" destination="HNi-n5-EfN" eventType="touchUpInside" id="Gdq-Td-slW"/>
                                     <segue destination="JNY-en-MMV" kind="show" id="90v-tp-ZSn"/>
                                 </connections>
                             </button>
@@ -698,6 +707,10 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RET-75-ndq"/>
+                    <connections>
+                        <outlet property="textFieldEmail" destination="4g8-l5-Djt" id="drx-fD-TM8"/>
+                        <outlet property="textFieldPassword" destination="BIv-wW-ENC" id="koY-un-pEM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8I-SB-48z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -712,16 +725,18 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="5JE-QA-T8w" kind="relationship" relationship="viewControllers" id="ZlZ-OJ-FE3"/>
-                        <segue destination="zde-QU-0wI" kind="relationship" relationship="viewControllers" id="FiJ-UF-kC7"/>
-                        <segue destination="KbW-uJ-brR" kind="relationship" relationship="viewControllers" id="zdj-5m-2Ns"/>
+                        <segue destination="KbW-uJ-brR" kind="relationship" relationship="viewControllers" id="xlZ-QG-8JV"/>
+                        <segue destination="qdR-sG-hoR" kind="relationship" relationship="viewControllers" id="rs5-Y7-A33"/>
+                        <segue destination="zde-QU-0wI" kind="relationship" relationship="viewControllers" id="Lhh-lu-9ii"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lX-oJ-ddl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3829.9065420560746" y="1459.8272138228942"/>
+            <point key="canvasLocation" x="3981" y="1598"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YP9-Cy-YAh">
@@ -729,7 +744,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 <navigationController storyboardIdentifier="RoomCaptureViewNavigationController" id="Yp7-tC-qnz" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="uR4-XY-Iez"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yOQ-qe-dy1">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="56"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -738,7 +753,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xpx-88-WV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7192.9906542056069" y="1136.5010799136071"/>
+            <point key="canvasLocation" x="6292" y="1114"/>
         </scene>
         <!--Scanning Room-->
         <scene sceneID="Q3p-IO-fBK">
@@ -1634,30 +1649,11 @@ You can see a preview of your scan at the bottom of the screen so you can make s
             </objects>
             <point key="canvasLocation" x="1594" y="402"/>
         </scene>
-        <!--Camera-->
-        <scene sceneID="n0I-zs-0NQ">
-            <objects>
-                <navigationController title="Camera" automaticallyAdjustsScrollViewInsets="NO" id="5JE-QA-T8w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Camera" id="7Mk-JW-fOO"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HLc-zG-SUY">
-                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="qdR-sG-hoR" kind="show" identifier="RoomCaptureViewNavigationController" id="K47-8P-Dql"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bI5-HR-rQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5440.6542056074759" y="1132.6133909287257"/>
-        </scene>
         <!--Scans-->
         <scene sceneID="z9R-Ae-PIX">
             <objects>
                 <navigationController title="Scans" automaticallyAdjustsScrollViewInsets="NO" id="zde-QU-0wI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Scans" id="QZ4-Dv-w60"/>
+                    <tabBarItem key="tabBarItem" title="" image="Saved" landscapeImage="Saved" selectedImage="Saved" id="QZ4-Dv-w60"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GYY-lH-MQ2">
                         <rect key="frame" x="0.0" y="47" width="428" height="44"/>
@@ -1676,7 +1672,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <scene sceneID="89W-O0-vew">
             <objects>
                 <navigationController title="Home" automaticallyAdjustsScrollViewInsets="NO" id="KbW-uJ-brR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="z3z-RR-9BK"/>
+                    <tabBarItem key="tabBarItem" title="" image="Home_light" landscapeImage="Home_light" selectedImage="homeLight" id="z3z-RR-9BK"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="okc-SN-EnK">
                         <rect key="frame" x="0.0" y="47" width="428" height="44"/>
@@ -1689,7 +1685,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dsg-fq-gbI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5439" y="2829"/>
+            <point key="canvasLocation" x="5439" y="2545"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zf0-eA-sNO">
@@ -1747,10 +1743,11 @@ You can see a preview of your scan at the bottom of the screen so you can make s
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="tN4-rA-O6W"/>
-        <segue reference="aAV-wY-Pre"/>
+        <segue reference="90v-tp-ZSn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1*8FhwCPi3tpm2pOzZVxV4mQ" width="1179" height="2556"/>
+        <image name="AR ICon" width="53" height="53"/>
         <image name="BackgroundLogin" width="393" height="196.66667175292969"/>
         <image name="Group 279" width="42" height="39"/>
         <image name="Group 280" width="42" height="39"/>
@@ -1765,6 +1762,7 @@ You can see a preview of your scan at the bottom of the screen so you can make s
         <image name="Menu" width="32" height="38"/>
         <image name="NewLogin" width="207" height="45"/>
         <image name="Rectangle 1" width="413" height="704"/>
+        <image name="Saved" width="40" height="44"/>
         <image name="Screenshot 2024-03-13 at 4.35.59 PM" width="370" height="648"/>
         <image name="Screenshot_2024-03-13_at_5.40.37_PM-removebg-preview" width="296" height="298"/>
         <image name="Screenshot_2024-03-13_at_5.40.57_PM-removebg-preview" width="246" height="280"/>
